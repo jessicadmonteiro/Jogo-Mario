@@ -14,11 +14,11 @@ Animações fluídas do Mario e outros elementos do jogo usando @keyframes.
 ## Personalização
 Você pode personalizar o jogo e as animações ajustando os seguintes arquivos:
 
-index.html: Estrutura do jogo.
-css/style.css: Estilos e animações.
-js/script.js: Lógica do jogo e interações.
+- index.html: Estrutura do jogo.
+- css/style.css: Estilos e animações.
+- js/script.js: Lógica do jogo e interações.
 
-Animações @keyframes
+- **Animações @keyframes**
 As animações @keyframes são usadas para criar movimentos suaves no jogo. As animações estão definidas no arquivo css/style.css. Para fazer alterações nas animações, acesse o arquivo mencionado e localize as seções de código relacionadas aos @keyframes.
 
 ## Contribuição
