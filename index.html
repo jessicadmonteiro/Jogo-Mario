@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Jogo Mario</title>
+
+</head>
+<body>
+    <div class="container-game">
+        
+        <div class="container-clouds">
+            <img src="./images/clouds.png" alt="Clouds">
+            <img src="./images/cloud2.png" class="cloud"  alt="Clouds">
+            <img src="./images/clouds.png" alt="Clouds">
+            <img src="./images/cloud3.png" class="cloud"  alt="Clouds"> 
+            <img src="./images/clouds.png" alt="Clouds">
+            <img src="./images/cloud2.png" class="cloud"  alt="Clouds">
+            <img src="./images/clouds.png" alt="Clouds">
+        </div>
+        <img src="./images/birds.png" class="birds">
+        <img src="./images/mario.gif" class="mario" alt="Mario">
+        <img src="./images/pipe.png" class="pipe" alt="Pipe">
+        <img src="./images/tree.png" class="tree-1" alt="Tree">
+        <img src="./images/tree.png" class="tree-2"  alt="Tree">
+
+    </div>
+    <div class="gram"></div>
+    <div class="earth"></div>
+    <div class="container-game-over">
+        <img src="./images/game over.png" alt="Game Over">
+    </div>
+    <div id="timeDisplay" class="container-timer" >Tempo: <span id="timerValue">0</span> segundos </div>
+    <audio id="backgroundMusic" loop>
+        <source src="./audio/Super-Mario.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
